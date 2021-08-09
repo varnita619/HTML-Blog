@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/aboutHTML.css">
-    <title>About HTML | HTML Blog</title>
+    <title>Your First HTML Code | HTML Blog</title>
 </head>
 <body>
     <nav class="navigation max-width-1 m-auto">
@@ -35,10 +35,10 @@
     </div>
 
     <div class="post-image">
-        <img src="img/3.png" alt="">
+        <img src="img/2.jpg" alt="">
     </div>
     <div class="m-auto blog-post-content max-width-2 m-auto my-2">
-        <h1 class="font1">What is HTML?</h1>
+        <h1 class="font1">First HTML Code</h1>
         <div class="blogpost-meta">
             <div class="author-info">
                 <div>
@@ -50,40 +50,85 @@
             </div>
             
         </div>
-         <p class="font">This is the first question that occurs in every beginners mind when they hear about HTML. So basically HTML stands for Hyper Text Markup Language. The name sounds complicated? Let's try to remember it in a very simple and informative way. </p> <br>
+         <p class="font">Now, you came a long way by reading this blog and it's time to write your first piece of code. Are you excited for it?</p> <br>
 
-            <p class = "font"><b>HyperText</b> refers to text that contains links to other texts. Every time you click on a highlighted or underlined link that takes you to another page, you are using hypertext. As more and more pages use hypertext to link to each other, a “web” of pages starts to form. This is where we get the term World Wide Web.</p> <br>
+            <p class = "font"><b>Let's Begin....</b></p> <br>
 
-            <p class = "font"><b> Markup</b> refers to the special symbols or codes that are inserted into a document to tell the web browser how to display the document data. For example, markup code may tell the browser to display a phrase in bold or italic text, or may tell the browser which parts of the document are headings and which are paragraphs. HTML is just one of a number of languages that uses markup code.</p> <br>
+            <p class = "font" style="padding: 5px;"><b>Step 1 - Create A New File In your Editor</b></p> <hr>
                 
-            <p class = "font"><b> Language</b> refers to the idea that the code is standardized. Just like regular spoken languages, there are certain rules that everyone must follow when writing HTML. This is so that all browsers can understand and interpret the code. There are many different programming languages, and you may have heard of some of the popular ones such as Java, Python and Ruby. Each language has its own unique set of rules, and many languages can be used in combination with HTML to create amazing webpages and applications.</p> <br>
+            <p class = "font">The first thing we're going to do is opening up our text editor and create a new document.</p> <br>
                 
-            <p class = "font">If we put these three definitions together, we could say that HTML is “a programming language that uses unique code which allows you to display linked documents in a browser”.</p> <br>
+            <p class = "font">Once you have created your document and saved it by giving a nade like "myFirstHTMLCode". Then there are some points you need to know:-
+                <ol>
+                    <li>
+                       <p class="font">HTML document should always be saved with the .html file extention.</p>
+                    </li>
+                    <li>
+                       <p class="font">The default homepage of a website is usually named as "index.html".</p>
+                    </li>
+                    <li>
+                       <p class="font">You should only use alphanumerics (a-z, 0-9), dashes(-), underscores(_), or tildes(~) in the page name.
+                       </p>
+                    </li>
+                    <li>
+                       <p class="font">You should always use lower case letter as some servers are case sensitive.</p>
+                    </li>
+                    <li>
+                       <p class="font">You should never use spaces in the file/document name.</p>
+                    </li>
+                    <li>
+                       <p class="font">It is good practice to create a naming convension and stick to it.</p>
+                    </li>
+                </ol>
+            </p> <br>
 
-         <div style="font-weight: bold;text-align: center;font-size: 20px; padding: 10px;">Basic HTML Format</div>
-         <ol>
-             <li>
-                <p class="font">The DOCKTYPE html declaration defines that this document is an HTML5 document.</p>
-             </li>
-             <li>
-                <p class="font">The html element is the root element of an HTML page.</p>
-             </li>
-             <li>
-                <p class="font">The head element contains meta information about the HTML page.</p>
-             </li>
-             <li>
-                <p class="font">The title element specifies a title for the HTML page.</p>
-             </li>
-             <li>
-                <p class="font">The body element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
-             </li>
-             <li>
-                <p class="font">The h1 element defines a large heading.</p>
-             </li>
-             <li>
-                <p class="font">The p element defines a paragraph.</p>
-             </li>
-         </ol>
+            <p class = "font" style="padding: 5px;"><b>Step 2 - Create A Basic HTML Template</b></p> <hr>
+
+            <p class = "font">Now, we're going to create a basic HTML template that you can use for any future HTMl documents as it remains same in every HTML document. We are going to add four elements which are - DOCTYPE, html, head and body.</p> <br>
+
+            <img src="img/htmlTemplate.png">
+
+            <p class = "font" style="padding: 5px;"><b>Step 3 - Add A Page Title And Practice Some Indenting</b></p> <hr>
+
+            <p class = "font">The next thing we are going to do is to add a title to our page.
+                Indenting an element simply means moving it one step to the right. The reason we are doing this is to make our code easier to read. Now after adding title and indentation our document will look like this:
+            </p> <br>
+
+            <img src="img/title.png">
+
+            <p class = "font" style="padding: 5px;"><b>Step 4 - Add Headings And Preview In The Browser</b></p><hr>
+
+            <p class = "font">Now, it's time to start adding some content in the body of our HTML document.</p><br>
+
+            <p class = "font"><b>Headings are very important. As they define the structure of your document. Search engines use headings to index the structure and content of your page. If you don't use headings in an appropriate manner it may be harder for people to find your page when they use a search engine.</b></p> <br>
+
+            <p class = "font">Basically, there are many tags for displaying the text as heading like("h1, h2, h3, h4..."). The thing you should remember is smaller the number larger the heading as h1 tag shows the largest heading h2 tag shows the heading comparitively smaller than h1. You can understand this by seeing below code and its output.</p> <br>
+
+            <img src="img/heading.png">
+
+            <p class = "font">Now, for previewing it's output on the browser you can simply click the "GoLive" button present in the bottom-right corner of VS Code or you can right click and from the given options you ca simply select "Open With Live Server" option.</p> <br>
+
+            <p class="font">Now your output will look like this</p><br>
+
+            <img src="img/html-heading-output.png">
+
+            <p class = "font" style="padding: 5px;"><b>Step 5 - Using Image tag</b></p><hr>
+
+            <p class = "font">The most fascinating and attractive thing on every website is images. So, now here is how you can add images to your webpage.</p><br>
+
+            <p class = "font"><b>Firstly write img with angle brackets and your image tag is created. Now put the source of the image which you want to be displayed on the browser in src. Your code will lokk like this</b></p> <br>
+
+            <img src="img/imgHtml.PNG">
+
+            <p class = "font">Now we have given height and width also to this image. So your output will look like this.</p> <br>
+
+            <img src="img/img.PNG">
+
+            <p class="font">After completing this blog, you should have a overview of how to code with HTML.
+            Now you can write your code and explore more about HTMl and other frameworks of web dev as well. The next step for you is to practice more and more and make amazing websites.
+            </p>
+
+                
     </div>
 
     <div class="max-width-1 m-auto"><hr></div>
@@ -130,13 +175,7 @@
     </div>
 
     <div class="footer">
-        <p>Copyright &copy; iBlog.com </p>
-         <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a> 
-    </div>
-
-    <div class="footer">
         <p>Made with ♥ by &copy; Varnita Makrariya </p>
-        <!-- <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a> -->
     </div>
 
 </body>
